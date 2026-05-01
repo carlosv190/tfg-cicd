@@ -38,7 +38,8 @@ jobs:
       # 5. Instala Helm en el runner
       - name: Instalar Helm
         uses: azure/setup-helm@v3
-
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       # 6. Configura el acceso al clúster de Minikube
       - name: Configurar kubeconfig
         run: echo "${{ secrets.KUBECONFIG }}" | base64 -d > kubeconfig.yaml
