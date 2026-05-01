@@ -181,7 +181,7 @@ def home():
 
         <div class="header">
             <h1>⚙️ CI/CD Pipeline</h1>
-            <p>Trabajo de Fin de Grado · ASIR</p>
+            <p>Trabajo de Fin de Grado · ASIR Y CON MUESTRA COMPLETADA</p>
             <span class="badge"><span class="status-dot"></span>Aplicación desplegada y en ejecución</span>
         </div>
 
