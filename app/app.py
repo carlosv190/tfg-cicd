@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     hostname = socket.gethostname()
-    return """
+    return ""
 <!DOCTYPE html>
 <html lang="es">
 <head>
